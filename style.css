@@ -48,6 +48,10 @@ button {
   cursor: pointer;
   border: none;
   transition: 0.2s;
+  
+}
+
+.add {
   border-radius: 0 5px 5px 0;
 }
 
@@ -73,6 +77,10 @@ ul {
   border-radius: 10px;
   padding: 20px;
   list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 li {
@@ -83,10 +91,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-li + li {
-  margin-top: 12px;
 }
 
 .todo-left {
@@ -110,4 +114,9 @@ li + li {
   text-align: center;
   opacity: 0.6;
   padding: 10px 0;
+}
+
+.filter {
+  margin-left: 8px;
+  border-radius: 5px;
 }
